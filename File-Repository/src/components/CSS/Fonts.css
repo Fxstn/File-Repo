@@ -1,0 +1,24 @@
+@font-face {
+	font-family: Gilroy;
+	src: local("Gilroy"), url(./Fonts/Gilroy/Gilroy-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: Roboto;
+	src: local("Roboto"), url(./Fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: Roboto-Bold;
+	src: local("Roboto"), url(./Fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: BebasNeue;
+	src: local("BebasNeue"), url(./Fonts/Bebas-Neue/BebasNeue-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: Product-Sans;
+	src: local("BebasNeue"), url(./Fonts/Product-Sans/Product-Sans-Regular.ttf) format('truetype');
+}

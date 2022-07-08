@@ -1,0 +1,76 @@
+.loginSection {
+	background-color: #f9f9f9 !important;
+	position: relative;
+}
+
+.icon {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.greetingText {
+	font-size: 1.75rem !important;
+	font-weight: 900;
+}
+
+.row {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.colsNoPadding {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+/*--------------------Forms---------------------*/
+form,
+.greetingText {
+	padding-left: 5% !important;
+	padding-right: 5% !important;
+}
+
+.formLabel,
+.formControl,
+.btn {
+	font-size: 1rem !important;
+}
+
+.formLabel {
+	font-weight: bold;
+	margin-top: 10px !important;
+	margin-bottom: 5px !important;
+}
+
+.formControl {
+	border-radius: 20px !important;
+	border: 3px solid #ffc239 !important;
+	background-color: white !important;
+}
+
+.formControl::target-text {
+	border: 3px solid #393cff !important;
+}
+
+.btn {
+	font-weight: bold !important;
+	background-color: #182850 !important;
+	border: 0 !important;
+	border-radius: 20px !important;
+	min-height: 2.5rem !important;
+}
+
+/*-----------------Lines-------------------*/
+.lineTop,
+.lineBottom {
+	position: absolute;
+	width: 100%;
+}
+
+.lineBottom {
+	bottom: 0;
+}

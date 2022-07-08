@@ -1,0 +1,304 @@
+.navbarHead {
+	padding: 20px;
+	margin-bottom: 10px;
+	background-color: #ffc239;
+}
+
+.navbarBrand {
+	font-size: 1.5rem !important;
+	color: #182850 !important;
+}
+
+.whiteText {
+	color: white;
+}
+
+.fontGilroy {
+	font-family: Gilroy;
+}
+
+.fontRoboto {
+	font-family: Roboto;
+}
+
+.fontRoboto {
+	font-family: Roboto;
+}
+
+.fontProductSans {
+	font-family: Product-Sans;
+}
+
+.fontBebasNeue {
+	font-family: BebasNeue;
+	font-weight: bold;
+}
+
+.fontSpacing {
+	letter-spacing: 2px;
+}
+
+.tab {
+	tab-size: 7;
+}
+
+/***** Landing Page Styles *****/
+.dropdownToggle {
+	background-color: white;
+	border: none;
+	border-radius: 100%;
+	width: 6.5vh;
+	min-width: 80px;
+	max-width: 200px;
+	height: 6.5vh;
+	min-height: 80px;
+	max-height: 200px;
+	box-shadow: 0px 0px 5px 0px #000;
+}
+
+.dropdownToggle::after {
+	content: none;
+}
+
+.dropdownMenu {
+	overflow: hidden;
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px #000;
+}
+
+.faCustom {
+	width: 30px;
+	font-size: 25px;
+	color: #ffc239;
+}
+
+.welcomeSection {
+	height: 60vh;
+}
+
+.welcomeMsg1 {
+	font-size: 3rem;
+	line-height: 100%;
+}
+
+.welcomeMsg2 {
+	font-size: 5rem;
+	line-height: 120%;
+}
+
+.welcomeMsg3 {
+	font-size: 2.5rem;
+}
+
+.welcomeBtn,
+.profileBox1,
+.accountBtn {
+	background-color: #182850 !important;
+}
+
+.welcomeBtn {
+	min-width: 16rem;
+	min-height: 5rem;
+	border: none;
+	border-radius: 18px;
+	font-size: 2rem;
+	text-decoration: none;
+	color: white;
+	padding-top: 15px;
+}
+
+/***** Buttons *****/
+.customBtn,
+.logOutBtn,
+.btn,
+.navDropdown {
+	border: solid 2px !important;
+	border-color: black !important;
+	border-radius: 12px !important;
+	height: 3.2rem !important;
+	font-size: 1rem !important;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.btn {
+	background-color: white !important;
+	color: #182850 !important;
+	max-width: 40%;
+}
+
+.accountCol,
+.logOutBtn {
+	box-shadow: 0px 0px 5px 0px #000;
+	border-color: white !important;
+	background-color: white !important;
+}
+
+.logOutBtn {
+	font-size: 1.5rem;
+	color: black;
+}
+
+.btnSearch {
+	border: 0;
+	border-right: solid 2px;
+}
+
+.btn:hover,
+.navDropdown:hover {
+	background-color: lightgrey !important;
+}
+
+.btn:active,
+.navDropdown:active {
+	background-color: gray !important;
+}
+
+.navDropdown {
+	color: #182850 !important;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.container {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding: 0 !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	max-width: none !important;
+}
+
+.form {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.formControl {
+	border: 0;
+	background-color: transparent;
+}
+
+.bottomEdge {
+	border-bottom: solid lightgray;
+}
+
+/***** Tables Styles *****/
+.iconPadding {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.checkboxCol {
+	width: 10%;
+	min-width: 90px;
+}
+
+.nameCol {
+	width: 50%;
+}
+
+.nameCol2 {
+	width: 40%;
+}
+
+.ownerCol {
+	width: 15%;
+}
+
+.dateCol {
+	width: 15%;
+	text-align: center;
+}
+
+/***** Account Creation Styles *****/
+
+.accountBtn,
+.accountCol,
+.accountInput {
+	border: solid 2px;
+	border-radius: 15px;
+}
+
+.accountInput {
+	border-color: #ffc239;
+	color: #000 !important;
+	background-color: white !important;
+	width: 100% !important;
+	text-align: left;
+}
+
+.accountInput:hover,
+.accountInput:focus,
+.accountInput:active {
+	border-color: #ffc239 !important;
+}
+
+.accountBtn {
+	width: 80%;
+	max-width: 200px;
+}
+
+/***** Profile Styles *****/
+.profileBox1,
+.profileBox2 {
+	box-shadow: 0px 0px 5px 0px #000;
+	border-radius: 15px;
+}
+
+.profileBox2 {
+	color: #182850;
+	min-height: 400px;
+	padding: 10px;
+}
+
+.profilePic {
+	height: 8rem;
+	width: 8rem;
+	border: solid 3px;
+	border-radius: 15px;
+	border-color: white;
+	background-color: #ffc239;
+}
+
+.profileBtnPrimary,
+.profileBtnDanger {
+	border: 0;
+	border-radius: 18px;
+	width: 70%;
+	min-width: 150px;
+	min-height: 50px;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.profileBtnPrimary {
+	background-color: #558eff;
+}
+
+.profileBtnDanger {
+	background-color: #ff3131;
+}
+
+.separator {
+	color: #ffc239;
+	border: none;
+	margin-top: 20px;
+	border-top: 2px double;
+	overflow: visible;
+	text-align: start;
+	height: 5px;
+	opacity: 100%;
+}
+
+.separator::after {
+	background: #fff;
+	color: #182850 !important;
+	font-weight: bolder;
+	content: "About";
+	position: relative;
+	padding-right: 15px;
+	top: -23px;
+}
